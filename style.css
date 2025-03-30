@@ -1,0 +1,97 @@
+body {
+    font-family: 'Arial', sans-serif; /* Modern font */
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a; /* Dark background */
+    color: #e0e0e0; /* Light text for contrast */
+}
+
+header {
+    background: linear-gradient(to right, #003366, #ffcc00); /* Blue to Gold gradient */
+    padding: 30px 20px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    color: #ffcc00; /* Gold links */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+nav a:hover {
+    color: #00bfff; /* Light blue hover */
+}
+
+section {
+    padding: 60px 20px;
+    background-color: #282828; /* Slightly lighter dark section */
+    border-bottom: 1px solid #333;
+}
+
+section h2 {
+    color: #ffcc00; /* Gold section headings */
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+section p {
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+    text-align: center;
+    padding: 30px 20px;
+    border-top: 1px solid #333;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+    nav ul {
+        text-align: center;
+    }
+
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    section {
+        padding: 40px 20px;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.8em;
+    }
+
+    section h2 {
+        font-size: 1.6em;
+    }
+}
